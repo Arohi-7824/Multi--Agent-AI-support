@@ -1,0 +1,30 @@
+message,intent,agent_reply
+I can't install the app,Software Installation Failure,Disable antivirus and retry installation
+The software setup crashes midway,Software Installation Failure,Download from direct link
+Setup isn't working on my PC,Software Installation Failure,Update to latest version of antivirus
+I'm having trouble installing the software,Software Installation Failure,Run installer as administrator
+Installation keeps failing,Software Installation Failure,Check disk space and retry
+
+I can't connect to the internet,Network Connectivity Issue,Restart your router and try again
+Internet connection is unstable,Network Connectivity Issue,Check app permissions for Local Network
+The app doesn't connect online,Network Connectivity Issue,Clear app cache and relog
+App stops working on mobile data,Network Connectivity Issue,Enable mobile data access in app settings
+My Wi-Fi keeps dropping,Network Connectivity Issue,Reinstall the app
+
+The app isn’t compatible with my phone,Device Compatibility Error,Rollback app to version 4.9
+Getting a device compatibility error,Device Compatibility Error,Offer a discount on a compatible thermostat
+My device isn’t supported,Device Compatibility Error,Contact thermostat support for an update
+The app says my OS is too old,Device Compatibility Error,Update to the latest supported OS version
+It won’t open on my tablet,Device Compatibility Error,Use the web version of the app instead
+
+My account isn't syncing,Account Synchronization Bug,Reset sync token manually
+Changes don’t reflect across devices,Account Synchronization Bug,Force Full Sync on both devices
+Sync isn't working,Account Synchronization Bug,Clear app cache and relog
+Device sync fails,Account Synchronization Bug,Re-login on both devices
+My calendar and contacts aren’t syncing,Account Synchronization Bug,Enable sync in account settings
+
+Payment isn't going through,Payment Gateway Integration Failure,Upgrade server to TLS 1.3
+Transaction keeps failing,Payment Gateway Integration Failure,Verify SSL certificate settings
+Can’t complete checkout,Payment Gateway Integration Failure,Use a different gateway API
+The payment gateway is broken,Payment Gateway Integration Failure,Check server firewall settings
+Payment page doesn’t load,Payment Gateway Integration Failure,Ensure JavaScript is enabled in browser
